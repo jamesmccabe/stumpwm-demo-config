@@ -1,0 +1,30 @@
+* StumpWM Demo configuration
+
+My StumpWM Demo configuration for my overview [[https://www.youtube.com/watch?v=jlF1N0R24cA][video]].
+
+** Prerequisites
+
+For installing StumpWM see instructions in the Readme page of the [[https://github.com/stumpwm/stumpwm][Stumpwm github repo]].
+
+I use [[https://www.quicklisp.org/beta/][Quicklisp]] to handle dependencies.
+I use the following libraries to build Stumpwm:
+
+- =clx=
+- =cl-ppcre=
+- =alexandria=
+
+I also use the the following libraries in my configuration:
+
+- =swank= (for connecting to Slime in Emacs)
+- =ttf-fonts= (for handling ttf fonts)
+
+** Setup
+
+#+begin_src sh
+git clone https://github.com/jamesmccabe/stumpwm-demo-config ~/.stumpwm.d
+git clone https://github.com/stumpwm/stumpwm-contrib ~/.stumpwm.d/modules
+#+end_src
+
+** License
+
+GNU GPLv3. See [[https://github.com/jamesmccabe/stumpwm-demo-config/blob/master/LICENSE][License]].
