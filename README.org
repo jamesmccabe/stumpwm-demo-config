@@ -16,7 +16,9 @@ I use the following libraries to build Stumpwm:
 I also use the the following libraries in my configuration:
 
 - =swank= (for connecting to Slime in Emacs)
-- =[[https://github.com/jamesmccabe/clx-truetype][clx-truetype]]= (for handling ttf fonts)
+- =clx-truetype= (for handling ttf fonts)
+
+I use a fork of [[https://github.com/jamesmccabe/clx-truetype][clx-truetype]].
 
 ** Setup
 
