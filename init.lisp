@@ -1,4 +1,4 @@
-;;; init.lisp --- StumpWM configuration
+;;; init.lisp --- StumpWM demo configuration
 
 ;; Copyright © 2020-2021 James McCabe
 
@@ -20,7 +20,7 @@
 
 ;;; Commentary:
 
-;; This is my personal StumpWM configuration.
+;; This is a basic StumpWM configuration for my demo video.
 
 ;;; Code:
 
