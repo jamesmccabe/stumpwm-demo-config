@@ -20,6 +20,12 @@ I also use the the following libraries in my configuration:
 
 I use a fork of [[https://github.com/jamesmccabe/clx-truetype][clx-truetype]].
 
+** Fonts
+
+I use the following fonts in my config:
+- [[https://dejavu-fonts.github.io/][DejaVu Sans Mono]]
+- [[https://fontawesome.com/][Font Awesome]]
+
 ** Setup
 
 #+begin_src sh
