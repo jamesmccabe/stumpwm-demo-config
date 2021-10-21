@@ -3,7 +3,7 @@
 ;; Copyright © 2020-2021 James McCabe
 
 ;; Author: James McCabe <james.mccab3(at)gmail.com>
-;; URL: https://github.com/jamesmccabe/stumpwm-config
+;; URL: https://github.com/jamesmccabe/stumpwm-demo-config
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -72,7 +72,10 @@
 	"#f72f33"        ; ^2 ; Red
 	"#689d6a"        ; ^3 ; Light Green
 	"#62bfef"        ; ^4 ; Light Blue
-        "#fabd2f"))      ; ^5 ; Yellow / Help map keys
+        "#fabd2f"        ; ^5 ; Yellow / Help map keys
+	"#a644bf"        ; ^6 ; Magenta
+	"#cc4a0e"        ; ^7 ; Brown
+	"#56b6c2"))      ; ^8 ; Cyan  
 	
 (defparameter *mode-line-bg-color* (nth 1 *colors*))
 (defparameter *mode-line-fg-color* (nth 0 *colors*))
