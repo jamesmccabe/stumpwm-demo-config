@@ -32,8 +32,9 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; load Stump contrib modules
-(mapc #'load-module '("ttf-fonts"
-		      "swm-gaps"))
+(mapc #'load-module
+      '("ttf-fonts"
+	"swm-gaps"))
 
 ;; set prefix key
 (set-prefix-key (kbd "C-z"))
@@ -44,14 +45,15 @@
 (run-shell-command "feh --bg-fill ~/Pictures/wallpaper.png")
 
 ;; font settings
-(set-font (list (make-instance 'xft:font
-			       :family "DejaVu Sans Mono"
-			       :subfamily "Bold"
-			       :size 13)
-		(make-instance 'xft:font
-			       :family "FontAwesome"
-			       :subfamily "Regular"
-			       :size 12)))
+(set-font (list
+	   (make-instance 'xft:font
+			  :family "DejaVu Sans Mono"
+			  :subfamily "Bold"
+			  :size 13)
+	   (make-instance 'xft:font
+			  :family "FontAwesome"
+			  :subfamily "Regular"
+			  :size 12)))
 
 ;; setup groups
 (grename "Base")
@@ -65,7 +67,7 @@
 
 ;; My own personal theme with random colors taken from
 ;; various Doom Emacs themes and also Dracula theme
-
+;; You can set 10 colors in total (8 default plus 2 extra)
 (setf *colors*
       '("#ffffff"        ; ^0 ; White
 	"#131220"        ; ^1 ; Dark Blue
