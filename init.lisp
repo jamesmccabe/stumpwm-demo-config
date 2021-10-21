@@ -151,7 +151,7 @@ Press ^2Ctrl+z ? ^0for Help. ^5Never Stop Hacking!^n
 	(setf *swank-server-p* t)
 	(message "Swank server is now active on Port^5 ~a^n.
 Use^4 M-x slime-connect^n in Emacs. 
-Type^2 in-package :stumpwm^n in Slime REPL." *port-number*))))
+Type^2 (in-package :stumpwm)^n in Slime REPL." *port-number*))))
 
 (defcommand stop-swank () ()
   "Stop Swank"
